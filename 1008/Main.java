@@ -1,0 +1,25 @@
+import java.io.IOException;
+import java.util.Scanner;
+
+/**
+ * IMPORTANT: 
+ *      O nome da classe deve ser "Main" para que a sua solução execute
+ *      Class name must be "Main" for your solution to execute
+ *      El nombre de la clase debe ser "Main" para que su solución ejecutar
+ */
+public class Main {
+    public static void main(String[] args) throws IOException {
+        Scanner scanner = new Scanner(System.in);
+
+        int number = scanner.nextInt();
+        int hours = scanner.nextInt();
+        double value = scanner.nextDouble();
+
+        double salary = hours * value;
+
+        System.out.printf("NUMBER = %d%n", number);
+        System.out.printf("SALARY = U$ %.2f%n", salary);
+
+        scanner.close();
+    }
+}
