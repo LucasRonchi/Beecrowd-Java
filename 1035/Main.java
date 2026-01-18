@@ -8,7 +8,7 @@ import java.util.Scanner;
  *      El nombre de la clase debe ser "Main" para que su solución ejecutar
  */
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
 
         int a = scanner.nextInt();
